@@ -1,0 +1,216 @@
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700');
+@import 'css/bootstrap/bootstrap.min.css';
+@import 'css/others/animate.css';
+@import 'css/others/magnific-popup.css';
+@import 'css/others/owl.carousel.min.css';
+@import 'css/others/font-awesome.min.css';
+@import 'css/others/elegant-font.css';
+@import 'css/others/themify-icons.css';
+*,
+ul,
+li {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    color: #232d37;
+    line-height: 1.25;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: #51545f;
+    font-size: 14px;
+    line-height: 2;
+    font-weight: 400;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a,
+a:hover,
+a:focus,
+a:active {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    -webkit-transition-duration: 600ms;
+    transition-duration: 600ms;
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+.fancyBtn{
+	color: #fff;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 44px;
+    padding: 0 15px;
+    width: 160px;
+    height: 46px;
+    border-left: 2px solid #7450fe;
+    border-right: 2px solid #21d397;
+    box-sizing: border-box;
+    background-position: 0 0, 0 100%;
+    background-repeat: no-repeat;
+    background-size: 100% 2px;
+    background-image: linear-gradient(left, #7450fe 0%, #21d397 100%),linear-gradient(left, #7450fe 0%, #21d397 100%);
+    background-image: linear-gradient(to right, #7450fe 0%, #21d397 100%), linear-gradient(to right, #7450fe 0%, #21d397 100%);
+    transition-duration: 1000ms;
+    position: relative;
+    z-index: 1;
+}
+.fancy-dark {
+    color: #232d37;
+}
+.nav-img{
+	width: 100% !important;
+	margin: 0px auto;
+	height: 800px;
+	background-image: url("../image/xhero-1.jpg.pagespeed.ic.BfNGvMMl2O.webp");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	
+	height: 800px;
+	background-color: rgba(19, 22, 39,0.65);
+	
+}
+.navbar{
+	height: 100px;
+	color: white;
+	transition: all 0.5s;
+	border: 1px solid white;
+	z-index: 1;
+	background-color: rgba(255,255,255,0) !important;
+}
+.search-icon{
+	width: 16px;
+	height: 22.5px;
+	font-size: 16pt;
+	margin: 20px;
+}
+.shop-icon{
+	width: 16px;
+	height: 22.5px;
+	font-size: 16pt;
+	margin: 20px;
+}
+.animated-img {
+    animation: animated-image 20s ease infinite;
+}
+.navbar-brand {
+    padding: 0;
+    margin-right: 0;
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+	
+}
+#fancyNav {
+        background: #7450fe;
+        background: linear-gradient(to right, #7450fe, #21d397);
+        background: linear-gradient(left, #7450fe, #21d397);
+        background: linear-gradient(to right, #7450fe, #21d397);
+        padding: 15px;
+        border-radius: 0 0 3px 3px;
+        margin-top: -2px;
+    }
+.fill{
+	display: block;
+    position: relative;
+    height: 100%;
+    background: #7450fe;
+    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
+    background: -webkit-linear-gradient(left, #7450fe, #21d397);
+    background: linear-gradient(to right, #7450fe, #21d397);
+    z-index: 1;
+}
+.tip{
+	margin-top: -22px;
+    font-size: 14px;
+    color: #232d37;
+    left: 0px;
+    position: absolute;
+    z-index: 2;
+    background: transparent;
+    font-weight: 600;
+}
+
+.OurServices{
+	background-image: url("../image/xhero-2.jpg.pagespeed.ic.cKOUteKqVe.webp");
+	background-repeat: no-repeat;
+	background-size: 100% 800px;
+}
+.OurServicesBg{
+	background-color: rgba(19,22,39,0.5)!important;
+}
+.playfair-font {
+    font-family: 'Playfair Display', serif;
+}
+.quote{
+	font-size: 120px;
+    line-height: 1;
+    background: #7450fe;
+    background: -webkit-linear-gradient(to right, #7450fe, #21d397);
+    background: -webkit-linear-gradient(left, #7450fe, #21d397);
+    background: linear-gradient(to right, #7450fe, #21d397);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.ceoPic{
+	width: 170px;
+	height: 170px;
+	border-radius: 50%;
+	box-shadow: 1px 1px 10px #888888;
+}
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+}
+.bg-overlay {
+    position: relative;
+    z-index: 1;
+}
+
+#scrollUp {
+    bottom: 10%;
+    font-size: 18px;
+    right: 5%;
+    width: 40px;
+    background-color: #5a5c68;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 2px 0 0 2px;
+    border-radius: 50%;
+    -webkit-transition-duration: 500ms;
+    transition-duration: 500ms;
+}
+
+#scrollUp:hover {
+    background-color: #7450fe;
+}
